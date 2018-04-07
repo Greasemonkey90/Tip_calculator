@@ -1,0 +1,18 @@
+<resources>
+    <string name="appname"> Tip Calculator</string>
+    <string name="dollarSign" translatable="false">$</string>
+    <string name="tip10">10% tip</string>
+    <string name="tip20">20% tip</string>
+    <string name="tip30">30% tip</string>
+    <string name="tip40">40% tip</string>
+    <string name="tip50">50% tip</string>
+    <string name="tip10_show">Your 10% tip is $ </string>
+    <string name="tip20_show">Your 20% tip is $ </string>
+    <string name="tip30_show">Your 30% tip is $ </string>
+    <string name="tip40_show">Your 40% tip is $ </string>
+    <string name="tip50_show">Your 50% tip is $ </string>
+    <string name="startOver">Reset</string>
+    <string name="directions">Enter check amount below</string>
+    <string name="valid_amount">Please enter a valid amount</string>
+
+</resources>

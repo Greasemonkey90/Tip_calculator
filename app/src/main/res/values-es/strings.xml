@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appname">Calculadora de propinas</string>
+    <string name="tip10">10% de propina</string>
+    <string name="tip20">20% de propina</string>
+    <string name="tip30">30% de propina</string>
+    <string name="tip40">40% de propina</string>
+    <string name="tip50">50% de propina</string>
+    <string name="tip10_show">Tu 10% de propina es $</string>
+    <string name="tip20_show">Tu 20% de propina es $</string>
+    <string name="tip30_show">Tu 30% de propina es $</string>
+    <string name="tip40_show">Tu 40% de propina es $</string>
+    <string name="tip50_show">Tu 50% de propina es $</string>
+    <string name="startOver">Reiniciar</string>
+    <string name="directions">Ingrese el monto del cheque a continuación:</string>
+    <string name="valid_amount">Por favor ingrese una cantidad válida</string>
+</resources>

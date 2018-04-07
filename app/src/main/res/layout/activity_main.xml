@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/first_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:fontFamily="@font/allerta"
+            android:paddingBottom="20dp"
+            android:text="@string/directions"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/enteredAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="#FFFFFF"
+            android:hint="@string/dollarSign"
+            android:inputType="numberDecimal"
+            android:paddingBottom="10dp"
+            android:textColorHint="#0D47A1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/second_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_layout"
+        android:orientation="horizontal"
+        android:paddingTop="25dp">
+
+        <Button
+            style="@style/buttons"
+            android:onClick="clickButton10"
+            android:text="@string/tip10" />
+
+        <Button
+            style="@style/buttons"
+            android:onClick="clickButton20"
+            android:text="@string/tip20" />
+
+        <Button
+            style="@style/buttons"
+            android:onClick="clickButton30"
+            android:text="@string/tip30" />
+
+
+        <Button
+            style="@style/buttons"
+            android:onClick="clickButton40"
+            android:text="@string/tip40" />
+
+        <Button
+            style="@style/buttons"
+            android:onClick="clickButton50"
+            android:text="@string/tip50" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/whereTipShows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/second_layout"
+        android:paddingTop="15dp"
+        android:text="" />
+
+    <Button
+        style="@style/restButton"
+        android:onClick="resetButton"
+        android:text="@string/startOver" />
+</RelativeLayout>
