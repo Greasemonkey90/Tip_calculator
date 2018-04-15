@@ -14,4 +14,5 @@
     <string name="startOver">Reiniciar</string>
     <string name="directions">Ingrese el monto del cheque a continuación:</string>
     <string name="valid_amount">Por favor ingrese una cantidad válida</string>
+    <string name="bill_amount">Su nueva cantidad de factura es: $</string>
 </resources>

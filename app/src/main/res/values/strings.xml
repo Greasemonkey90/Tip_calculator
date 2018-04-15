@@ -6,6 +6,7 @@
     <string name="tip30">30% tip</string>
     <string name="tip40">40% tip</string>
     <string name="tip50">50% tip</string>
+    <string name="bill_amount">Your new bill amount is: $</string>
     <string name="tip10_show">Your 10% tip is $ </string>
     <string name="tip20_show">Your 20% tip is $ </string>
     <string name="tip30_show">Your 30% tip is $ </string>

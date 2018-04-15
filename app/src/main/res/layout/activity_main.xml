@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com"
+    xmlns:tools2="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
@@ -19,7 +20,7 @@
             android:fontFamily="@font/allerta"
             android:paddingBottom="20dp"
             android:text="@string/directions"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/white"
             android:textSize="24sp" />
 
         <EditText
@@ -27,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:background="#FFFFFF"
+            android:background="@color/white"
             android:hint="@string/dollarSign"
             android:inputType="numberDecimal"
             android:paddingBottom="10dp"
@@ -44,43 +45,52 @@
         android:paddingTop="25dp">
 
         <Button
+            android:id="@+id/tip10_button"
             style="@style/buttons"
             android:onClick="clickButton10"
             android:text="@string/tip10" />
 
         <Button
+            android:id="@+id/tip20_button"
             style="@style/buttons"
             android:onClick="clickButton20"
             android:text="@string/tip20" />
 
         <Button
+            android:id="@+id/tip30_button"
             style="@style/buttons"
             android:onClick="clickButton30"
             android:text="@string/tip30" />
 
 
         <Button
+            android:id="@+id/tip40_button"
             style="@style/buttons"
             android:onClick="clickButton40"
             android:text="@string/tip40" />
 
         <Button
+            android:id="@+id/tip50_button"
             style="@style/buttons"
             android:onClick="clickButton50"
             android:text="@string/tip50" />
     </LinearLayout>
 
     <TextView
-        android:id="@+id/whereTipShows"
-        android:layout_width="wrap_content"
+        android:id="@+id/whereNewBillAmountShows"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
         android:layout_below="@id/second_layout"
-        android:paddingTop="15dp"
+        android:layout_centerVertical="true"
+        android:fontFamily="@font/coiny"
+        android:paddingTop="20dp"
         android:text="" />
 
+
     <Button
+        android:id="@+id/reset"
         style="@style/restButton"
         android:onClick="resetButton"
-        android:text="@string/startOver" />
+        android:text="@string/startOver"
+        />
 </RelativeLayout>
